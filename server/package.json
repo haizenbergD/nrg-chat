@@ -1,0 +1,20 @@
+{
+  "name": "nrg-server",
+  "version": "1.0.0",
+  "description": "NRG chat",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **/*.ts"
+  },
+  "author": "Magic Person",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "8.2.0",
+    "typescript": "3.5.1"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0"
+  }
+}
